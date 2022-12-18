@@ -1,6 +1,8 @@
- <img src="https://user-images.githubusercontent.com/43299285/208293085-f72de2cc-c9b2-4ff5-80b0-dfc2d4b5d761.PNG" width="250"/>
+ <div align="center">
 
-### About this project
+ <img src="https://user-images.githubusercontent.com/43299285/208293085-f72de2cc-c9b2-4ff5-80b0-dfc2d4b5d761.PNG" width="100%"/>
+
+ </div>
 
 This is an Android Native project with [Ionic 6](https://ionicframework.com/), [Capacitor 2](https://capacitorjs.com/) and [Angular 15](https://angular.io/guide/update-to-version-15). Built with Ionic CLI for a Capacitor Development of the App with npx commands. We have added Device, Modal, and Browser offical plugins on this project. It has been rendered in [Android Studio Emulator](https://developer.android.com/studio/run/emulator) using external livereload for seeing any change applied in our editor (VSCode) when developing the App.
 
