@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Capacitor
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content [fullscreen]="true">
+    <ion-card>
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            {{ info?.osVersion }}
+          </ion-item>
+          <ion-item>
+            {{ info?.model }}
+          </ion-item>
+          <ion-item>
+            {{ info?.battery?.isCharging }}
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+
+    </ion-card>
+
+    <ion-button
+      expand="full"
+      (click)="showConfirm()"
+    >
+      Show Confirm Modal
+    </ion-button>
+
+    <ion-button
+      expand="full"
+      (click)="showAlert()"
+    >
+      Show Alert Modal
+    </ion-button>
+    <ion-button
+      expand="full"
+      (click)="openBrowser()"
+    >
+      Open Browser
+    </ion-button>
+  </ion-content>
