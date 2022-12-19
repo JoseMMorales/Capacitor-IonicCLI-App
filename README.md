@@ -46,7 +46,7 @@ ion-content, ion-toolbar, ion-title, ion-card, ion-item, ion-list, ion-card-cont
 
 - `ionic serve`
 
-- `ionic cap run android --livereload --external`
+- `npx cap run android --livereload --external`
 
 ### Technology...
 
